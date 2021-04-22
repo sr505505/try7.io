@@ -1,0 +1,216 @@
+
+          @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+       
+      *{
+         margin: 0px;
+         padding: 0px;
+         font-family: 'Raleway', sans-serif;
+         scroll-behavior: smoth-scrolling;
+         
+        }
+        
+       nav{
+           width:100%;
+           height: 37px;
+           background-color: #26464e;
+           overflow: hidden;
+           position: static;
+           display: flex;
+           justify-content: space-between;
+           overflow: hidden;
+           
+         }
+           
+         
+      #logo{
+           color:#7DDBC3;
+           margin-top: 7px;
+           margin-left: 7px;
+           font-family: 'Raleway', sans-serif;
+           font-style: italic;
+           padding-left: 3%;
+           width:60%;
+          }
+         span{
+          color: #BD46D6 ;
+           
+         }
+  
+   #nav-link{
+           display:flex;
+           overflow: hidden;
+           margin-top: 8px;
+           width: 40%;
+           margin-right:5%;
+           list-style-type: none;
+           }
+         #nav-link li {
+               margin-left:12%;
+               overflow: hidden;
+            }
+           #nav-link li a{
+             text-decoration: none;
+             color: white;
+             font-size: 11px;
+             overflow: hidden;
+           }
+           #nav-link li a:hover{
+             color: black;
+             background-color: white;
+             transition-duration: 0.1s;
+            border-radius: 2px;
+           overflow: hidden;
+           }
+           
+
+ /* #hdr-img{
+      background-image: url('srvs1.jpg');
+      width:100%;
+      height: 300px;
+      opacity: 0.6;
+      overflow: hidden;
+    }*/
+    
+ body{
+   background-color: #00283F;
+   
+ }
+ p{
+  margin-top:20%;
+     color: darkgreen;
+     font-size: 25px;
+     margin-left: 17%;
+     overflow: hidden;
+     text-shadow: 6px 5px 5px #0C4468;
+  }
+
+ #hdr{
+   
+   width: 100%;
+   height: 260px;
+   
+ }
+ .hdr-img{
+    opacity: 0.8;
+    width: 100%;
+    height:100%;
+  }
+    
+   
+ 
+    
+   .div{
+     width: 95%;
+    height: 100px;
+     overflow: hidden;
+     display:flex;
+     
+     margin-left:2%;
+     border-radius: 6px;
+     margin-top:7%;
+     
+     box-shadow :0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+   }
+   .thumbnail{
+     width: 120px;
+     height: 110px;
+     
+     
+   }
+    .tm-img{
+      width:100px;
+      height: 100px;
+      border-radius: 48%;
+    }
+
+     .title{
+       color:white;
+      
+       margin-top: 6%;
+       margin-left:3%;
+     }
+   
+  #bal{
+    width: 100%;
+    height: 200px;
+   overflow: hidden;
+  }
+    
+    
+    
+    footer{
+      border-top:1px solid #0C4468;
+      background-color: #00283F;
+      
+      width: 100%;
+      height: 100px;
+    }
+   
+   .ftr{
+    margin-top:7%;
+    margin-left:13%;
+    color:white;
+       font-size: 12px;
+       font-weight: bold;
+       word-spacing: 2px;
+       letter-spacing: 2px;
+    }
+    
+    
+    
+              
+  /*@media Query Css 🐒🙄*/
+  
+  
+      
+  @media  screen and (min-width:700px){
+ 
+ nav{
+    height: 48px;
+  }
+  #logo{
+    
+    font-size: 26px;
+    margin-top:7px;
+  }
+
+ #nav-link {
+      margin-right:5%;
+    margin-top:16px;
+  }
+  
+  #nav-link li a{
+       font-size:17px;
+       
+        }
+ 
+  #hdr{
+   
+   width: 100%;
+   height: 500px;
+   
+ }
+        
+        
+     footer{
+       margin-top:100%;
+       border-top:1px solid green;
+       width: 100%;
+       height: 200px;
+       
+     }
+   
+   .ftr{
+    margin-top:7%;
+    margin-left:20%;
+    color:white;
+       font-size: 18px;
+       font-weight: bold;
+       word-spacing: 7px;
+       letter-spacing: 6px;
+    }
+    
+    
+  
+}

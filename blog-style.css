@@ -1,0 +1,238 @@
+  
+       @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+       
+      *{
+         margin: 0px;
+         padding: 0px;
+         font-family: 'Raleway', sans-serif;
+         scroll-behavio: smoth-scrolling;
+         
+        }
+        
+          
+          
+        
+        body{
+          background-color: #8EAFC5;
+          
+        }
+        header{
+          
+          overflow: hidden;
+         }
+         nav{
+           width:100%;
+           height: 37px;
+           background-color: #26464e;
+           overflow: hidden;
+           position: static;
+           display: flex;
+           justify-content: space-between;
+           
+           
+         }
+           
+         
+      #logo{
+           color:#7DDBC3;
+           margin-top: 7px;
+           margin-left: 7px;
+           font-family: 'Raleway', sans-serif;
+           font-style: italic;
+           padding-left: 3%;
+           width:60%;
+          }
+         span{
+          color: #BD46D6 ;
+           
+         }
+       #nav-link{
+           display:flex;
+           overflow: hidden;
+           margin-top: 8px;
+           width: 40%;
+           margin-right:5%;
+           list-style-type: none;
+           }
+         #nav-link li {
+               margin-left:12%;
+               overflow: hidden;
+            }
+           #nav-link li a{
+             text-decoration: none;
+             color: white;
+             font-size: 11px;
+             overflow: hidden;
+           }
+           #nav-link li a:hover{
+             color: black;
+             background-color: white;
+             transition-duration: 0.1s;
+            border-radius: 2px;
+           overflow: hidden;
+           }
+       .header-img{
+             background-image: url('/img10.jpg') ;
+             width: 100%;
+             
+             height: 300px;
+             opacity: 0.7;
+             overflow: hidden;
+           }
+         .hdr-title{
+           color: white;
+           font-size: 28px;
+           font-weight: bold;
+           margin-top:30%;
+           margin-left: 5%;
+         }
+   
+    #post{
+            margin-top:2%;
+             width: 97%;
+             height: 78px;
+             overflow: hidden;
+             border-left: 1px solid green;
+             margin-left: 1%;
+             display:flex;
+            /* justify-content: space-between;
+             justify-content: space-around;*/
+                border-radius:3px ;
+                background-color: #437BA1;
+                border:1px solid #21597E;
+           }
+           #post:hover{
+             box-shadow :0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+             
+           }
+         .tmbnl{
+           width:20%;
+            height:78px;
+           
+           overflow: hidden;
+         }
+         .tmbnl-img{
+             width:100px;
+             height:78px;
+             overflow: hidden;
+           }
+         .post-para{
+             width:78%;
+             height: auto;
+             
+             overflow: hidden;
+             
+           }
+          
+            
+      .post-title{
+             text-decoration: none;
+             color: white;
+             
+            font-size:17px ;
+            overflow: hidden;
+           }
+          a div{
+            margin-top: 7%;
+            
+          }
+          a:hover{
+            text-shadow: 6px 5px 5px #133133;
+            
+          }
+    .f1-2-last-div {
+          margin-top:20%;
+          overflow: hidden;
+        }
+        
+        
+        
+      
+   footer{
+        
+        width:100%;
+        height:100px;
+        background-color:#233d44;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 20%;
+      }
+      
+      .ftr{
+        margin-top: 8%;
+        color:white;
+        font-style: italic;
+        font-size: 13px;
+      }
+      
+      
+      
+      
+      
+          
+  /*@media Query Css 🐒🙄*/
+  
+  
+      
+  @media  screen and (min-width:700px){
+ 
+ nav{
+    height: 48px;
+  }
+  #logo{
+    
+    font-size: 26px;
+    margin-top:7px;
+  }
+
+ #nav-link {
+      margin-right:5%;
+    margin-top:16px;
+  }
+  
+  #nav-link li a{
+       font-size:17px;
+       
+        }
+        
+   .hdr-title{
+        color: white;
+        font-size: ;
+        margin-top:10%;
+        margin-left: 10%;
+        letter-spacing: 6px;
+       }  
+
+  .tmbnl{
+           width:15%;
+            height:78px;
+           
+           
+         }
+     .tmbnl-img{
+          width:100%;
+         height:78px;
+        
+     }
+  .post-para{
+    
+    margin-left: 1%;
+  }
+ a div{
+    margin-top:4%;
+    margin-left:1px;
+    
+  } 
+  
+  
+  footer{
+    margin-top:40%;
+    height: 300px;
+    width: 100%;
+  }
+  .ftr{
+    margin-top:3%;
+    font-size: 19px;
+  }
+  
+}
